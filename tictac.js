@@ -21,8 +21,8 @@ start.addEventListener("click",function(){
   {
     cell[i].textContent='';
   }
-    name1 = prompt("enter the name of player1");
-    name1 = prompt("enter the name of player1");
+  name1 = prompt("enter the name of player1");
+  name2 = prompt("enter the name of player1");
     maxpoint = prompt("what is your game point?");
     alert("Player who gets "+maxpoint+" first will be the winner");
     $('#p1').text("X is - "+name1);
