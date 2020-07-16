@@ -1,11 +1,17 @@
-td{
+.abc td{
   height: 50px;
+  width: 50px;
   padding: 50px;
   border: 5px solid black;
   text-align: center;
-  font-size: 50px;
-
+  font-size: 30px;
+  background-color:  rgb(198, 169, 204);
 }
+#row{
+  padding-left: 100px;
+  align-items: center;
+}
+
 #p1{
   border-radius: 30%;
   width: 300px;
