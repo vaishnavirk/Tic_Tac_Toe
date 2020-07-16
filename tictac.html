@@ -14,38 +14,46 @@
   </head>
 <body>
    <div class="container">
+
      <div class="jumbotron">
-       <h1>Welcome to Tic Tac Toe!</h1>
+       <h1>Tic Tac Toe!</h1>
         <button id='b'type="button" class="btn btn-primary btn-lg " name="button">Restart</button>
      </div>
 
-     <table align='center'>
+    <table align='center'>
+      <tr>
+        <td> <button id="p1" type="button" style= "color: black" class="btn btn-primary btn-lg" toggle="disabled">
+           X is -
+         </button></td>
+         <td>  </td>
+        <td> <button id="p2" type="button" style= "color: black" class="btn btn-primary btn-lg">
+           O is -
+         </button></td>
+      </tr>
+    </table>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <div class="abc">
+      <table align='center'>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+       </tr>
        <tr>
          <td></td>
          <td></td>
          <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-
-     </table>
-     
-     <table align='left'>
-       <tr id="one">
-         <td id="oneone"></td>
        </tr>
-       <tr id="two">
-         <td id="twotwo"></td>
+       <tr>
+         <td></td>
+         <td></td>
+         <td></td>
        </tr>
-     </table>
+      </table>
+    </div>
 
       <script type="text/javascript" src='tictac.js'></script>
       </div>
