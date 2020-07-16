@@ -5,11 +5,12 @@ var start = document.querySelector('#b');
 // two players names
 var name1 = prompt("enter the name of player1");
 var name2 = prompt("enter the name of player2");
+
 var maxpoint = prompt("what is your game point?");
 alert("Player who gets "+maxpoint+" first will be the winner");
 // assigning names in header h3
-$('#one').text(name1 +" is X: ");
-$('#two').text(name2 +" is O: ");
+$('#p1').text("X is - "+name1);
+$('#p2').text("O is - "+name2);
 
 // x is assigned as 1 and O is assigned as 0
 var playerx=0;
@@ -19,10 +20,13 @@ start.addEventListener("click",function(){
   for(var i=0; i<cell.length; i++)
   {
     cell[i].textContent='';
-    // playerx=0;
-    // playery=0;
-    // game();
   }
+    name1 = prompt("enter the name of player1");
+    name1 = prompt("enter the name of player1");
+    maxpoint = prompt("what is your game point?");
+    alert("Player who gets "+maxpoint+" first will be the winner");
+    $('#p1').text("X is - "+name1);
+    $('#p2').text("O is - "+name2);
 });
 //
 for(var i=0; i<cell.length; i++)
